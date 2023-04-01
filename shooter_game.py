@@ -7,7 +7,7 @@ class GameSprite(sprite.Sprite):
         super().__init__()
         self.size_x = size_x
         self.size_y = size_y
-        self.image = transform.scale(image.load(player_image), (size_x, size_y))
+        self.image = transform.scale(image.load(player_image), (size_x, size_y))ншш
         self.speed = player_speed
         self.rect = self.image.get_rect()
         self.rect.x = player_x
